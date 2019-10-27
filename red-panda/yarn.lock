@@ -8156,6 +8156,11 @@ react-scripts@3.2.0:
   optionalDependencies:
     fsevents "2.0.7"
 
+react-spacer@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/react-spacer/-/react-spacer-1.2.0.tgz#54770f9eebc7a2bf1a1f41fdeea30bfbc0d5963f"
+  integrity sha512-r45bq3TEGPGt2FaO4eDI5hgCDnu8FIu3iiWff8xtrn7okpNpPQx4k+0/6C69I6HA6EPULijSQrKbApirMenHWA==
+
 react@^16.11.0:
   version "16.11.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.11.0.tgz#d294545fe62299ccee83363599bf904e4a07fdbb"

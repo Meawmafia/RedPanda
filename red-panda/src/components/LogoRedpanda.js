@@ -3,9 +3,10 @@ import styled from 'styled-components'
 
 const Textbox = styled.div`
 
+position: absolute;
 width: 393px;
 height: 125px;
-left: 523px;
+left: 75px;
 
 
 font-family: Staatliches;
@@ -22,20 +23,13 @@ border: 5px solid #000000;
 box-sizing: border-box;
 
 `
-const img = styled.img`
-
-width: 398px;
-height: 398px;
-left: 520px;
-top: 193px;
-
-`
-const text = styled.div`
-
+const Text = styled.div`
+position: absolute;
 width: 602px;
 height: 64px;
-left: 419px;
-top: 738px;
+margin: 5px 30px 30px -40px;
+top: 650px;
+
 
 font-family: Teko;
 font-style: normal;
@@ -47,58 +41,38 @@ text-align: center;
 color: #000000;
 
 `
+const img = styled.img`
+
+position: absolute;
+width: 398px;
+height: 398px;
+
+top: 193px;
+
+`
+
 
 export default class LogoRedpanda extends Component {
-    render() {
-        return (
-<div class="container">
-  <div class="row justify-content-md-center">
-    <div class="col col-lg-2">
-      
-    </div>
-    <div class="col-md-auto">
-    <img src="/images/logo.jpg" class="rounded mx-auto d-block" alt="Logo" />
-    </div>
-    <div class="col col-lg-2">
-      
-    </div>
-  </div>
+  render() {
+    return (
 
-  <div class="row justify-content-md-center">
-    <div class="col col-lg-2">
-     
-    </div>
-    <div class="col-md-auto">
-    <Textbox>RED PANDA</Textbox>
-    </div>
-    <div class="col col-lg-2">
-     
-    </div>
-  </div>
+     <div>
 
-  <div class="row justify-content-md-center">
-    <div class="col col-lg-2">
-      
-    </div>
-    <div class="col-md-auto">
-   <text>cutest existence in the world.</text>
-    </div>
-    <div class="col col-lg-2">
-      
-    </div>
-  </div>
-  </div>
+        <img src="/images/logo.jpg" class="rounded mx-auto d-block" alt="Logo" />
+        <Textbox>RED PANDA</Textbox>
+        <Text>cutest existence in the world.</Text>
+      </div>
 
 
 
 
 
-  
-  
-  
-    
-  
 
-        )
-    }
+
+
+
+
+
+    )
+  }
 }
